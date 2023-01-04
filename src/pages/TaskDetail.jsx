@@ -6,7 +6,7 @@ import Navbar from "../component/Navbar";
 
 export default function TaskDetail() {
   return (
-    <Box sx={{ bgcolor: "#fee9e1" }}>
+    <Box sx={{ bgcolor: "#fffffb" }}>
       <CreationDrawer />
       <Navbar halaman="Lihat Tugas" />
 
@@ -32,7 +32,7 @@ export default function TaskDetail() {
                   >
                     <Typography
                       variant="h5"
-                      sx={{ fontWeight: "bold", mb: 1, color: "#8d6e63" }}
+                      sx={{ fontWeight: "bold", mb: 1, color: "#5b5f97" }}
                     >
                       Tugas Yang Sudah Dikerjakan
                     </Typography>
@@ -42,7 +42,7 @@ export default function TaskDetail() {
                     <Box
                       sx={{
                         borderRadius: 4,
-                        backgroundColor: "#8d6e63",
+                        backgroundColor: "#c6f991",
                         width: 318,
                         height: 125,
                       }}
@@ -56,7 +56,7 @@ export default function TaskDetail() {
                               fontWeight: "bold",
                               ml: 1,
                               align: "center",
-                              color: "white",
+                              color: "black",
                             }}
                           >
                             UI/UX
@@ -64,7 +64,7 @@ export default function TaskDetail() {
                         </Grid>
                         <Grid item xs={6}>
                           <Typography
-                            sx={{ fontSize: 10, mt: 1, mr: 1, color: "white" }}
+                            sx={{ fontSize: 10, mt: 1, mr: 1, color: "black" }}
                             align="right"
                           >
                             Deadline: 12 September 2023
@@ -77,13 +77,13 @@ export default function TaskDetail() {
                           mt: 0.5,
                           fontWeight: "bold",
                           ml: 1,
-                          color: "white",
+                          color: "black",
                         }}
                       >
                         "Membuat Wireframe Web"
                       </Typography>
                       <Typography
-                        sx={{ fontSize: 10, ml: 1.2, color: "white" }}
+                        sx={{ fontSize: 10, ml: 1.2, color: "black" }}
                       >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -125,7 +125,7 @@ export default function TaskDetail() {
                     <Box
                       sx={{
                         borderRadius: 4,
-                        backgroundColor: "#8d6e63",
+                        backgroundColor: "#c6f991",
                         width: 318,
                         height: 125,
                       }}
@@ -139,7 +139,7 @@ export default function TaskDetail() {
                               fontWeight: "bold",
                               ml: 1,
                               align: "center",
-                              color: "white",
+                              color: "black",
                             }}
                           >
                             UI/UX
@@ -147,7 +147,7 @@ export default function TaskDetail() {
                         </Grid>
                         <Grid item xs={6}>
                           <Typography
-                            sx={{ fontSize: 10, mt: 1, mr: 1, color: "white" }}
+                            sx={{ fontSize: 10, mt: 1, mr: 1, color: "black" }}
                             align="right"
                           >
                             Deadline: 12 September 2023
@@ -160,13 +160,13 @@ export default function TaskDetail() {
                           mt: 0.5,
                           fontWeight: "bold",
                           ml: 1,
-                          color: "white",
+                          color: "black",
                         }}
                       >
                         "Membuat Wireframe Web"
                       </Typography>
                       <Typography
-                        sx={{ fontSize: 10, ml: 1.2, color: "white" }}
+                        sx={{ fontSize: 10, ml: 1.2, color: "black" }}
                       >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -208,7 +208,7 @@ export default function TaskDetail() {
                     <Box
                       sx={{
                         borderRadius: 4,
-                        backgroundColor: "#8d6e63",
+                        backgroundColor: "#c6f991",
                         width: 318,
                         height: 125,
                       }}
@@ -222,7 +222,7 @@ export default function TaskDetail() {
                               fontWeight: "bold",
                               ml: 1,
                               align: "center",
-                              color: "white",
+                              color: "black",
                             }}
                           >
                             UI/UX
@@ -230,7 +230,7 @@ export default function TaskDetail() {
                         </Grid>
                         <Grid item xs={6}>
                           <Typography
-                            sx={{ fontSize: 10, mt: 1, mr: 1, color: "white" }}
+                            sx={{ fontSize: 10, mt: 1, mr: 1, color: "black" }}
                             align="right"
                           >
                             Deadline: 12 September 2023
@@ -243,13 +243,13 @@ export default function TaskDetail() {
                           mt: 0.5,
                           fontWeight: "bold",
                           ml: 1,
-                          color: "white",
+                          color: "black",
                         }}
                       >
                         "Membuat Wireframe Web"
                       </Typography>
                       <Typography
-                        sx={{ fontSize: 10, ml: 1.2, color: "white" }}
+                        sx={{ fontSize: 10, ml: 1.2, color: "black" }}
                       >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore

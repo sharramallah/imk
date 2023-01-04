@@ -35,7 +35,7 @@ export default function Navbar({ halaman }) {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" sx={{ bgcolor: "#64b6ac" }}>
+      <AppBar position="static" sx={{ bgcolor: "#5b5f97" }}>
         <Toolbar>
           <IconButton
             onClick={() => setBukaDrawer(true)}
@@ -43,7 +43,7 @@ export default function Navbar({ halaman }) {
             edge="start"
             color="inherit"
             aria-label="menu"
-            sx={{ mr: 2, bgcolor: "#64b6ac" }}
+            sx={{ mr: 2, bgcolor: "#5b5f97" }}
           >
             <MenuIcon />
           </IconButton>

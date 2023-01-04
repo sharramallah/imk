@@ -45,7 +45,7 @@ export default class Grafik extends PureComponent {
 
   render() {
     return (
-      <Box sx={{ bgcolor: "#fee9e1" }}>
+      <Box sx={{ bgcolor: "#fffffb" }}>
         <Grid container alignItems={"center"} direction="column">
           <Grid item>
             <Box sx={{ mt: 3 }}>
@@ -76,8 +76,8 @@ export default class Grafik extends PureComponent {
             <Tooltip />
             <Legend />
 
-            <Bar dataKey="tugas_selesai" fill="#64b6ac" />
-            <Bar dataKey="tugas_belum_selesai" fill="#b09e99" />
+            <Bar dataKey="tugas_selesai" fill="#c6f991" />
+            <Bar dataKey="tugas_belum_selesai" fill="#ffabab" />
           </BarChart>
         </ResponsiveContainer>
       </Box>

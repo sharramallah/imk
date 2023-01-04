@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 export default function Login() {
   return (
-    <Box sx={{ bgcolor: "#fee9e1", height: "100vh" }}>
+    <Box sx={{ bgcolor: "#fffffb", height: "100vh" }}>
       <Grid container justifyContent={"center"}>
         <Grid item>
           <Typography variant="h4" gutterBottom mt={20}>
@@ -56,7 +56,7 @@ export default function Login() {
               to={"/Dashboard"}
               sx={{ textDecoration: "none" }}
             >
-              <Button variant="contained">Login</Button>
+              <Button sx={{ bgcolor: '#5b5f97' }} variant="contained">Login</Button>
             </Box>
           </Grid>
           <Grid item sx={{ mt: 3 }}>

@@ -20,7 +20,7 @@ export default function Dashboard() {
   return (
     <Box
       sx={{
-        backgroundColor: "#fee9e1",
+        backgroundColor: "#fffffb",
         height: "100vh",
         // border: "3px solid black",
       }}
@@ -33,7 +33,7 @@ export default function Dashboard() {
           <Box mt={3} ml={3}>
             <Typography
               variant="h4"
-              sx={{ color: "#64b6ac", fontWeight: "bold" }}
+              sx={{ color: "black", fontWeight: "bold" }}
             >
               Semangat, Nur!
             </Typography>
@@ -45,11 +45,10 @@ export default function Dashboard() {
               fontSize: 15,
               fontWeight: "light",
               textAlign: "justify",
-              color: "#5b3e31",
+              color: "#210440",
             }}
           >
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+            "Buat harimu produktif!"
           </Typography>
         </Box>
       </Grid>
@@ -61,7 +60,7 @@ export default function Dashboard() {
               mt: 4,
               width: 350,
               height: 200,
-              backgroundColor: "#64b6ac",
+              backgroundColor: "#5b5f97",
               borderRadius: 5,
             }}
           >
@@ -72,11 +71,11 @@ export default function Dashboard() {
               px={1.5}
             >
               <Grid item xs={6}>
-                <Box sx={{ mt: 1, backgroundColor: "white", borderRadius: 4 }}>
+                <Box sx={{ mt: 1, backgroundColor: "#f9d181", borderRadius: 4 }}>
                   <Typography
                     fontSize={90}
                     align="center"
-                    color="#64b6ac"
+                    color="#210440"
                     fontWeight="regular"
                   >
                     21
@@ -84,7 +83,7 @@ export default function Dashboard() {
                   <Typography
                     fontSize={14}
                     align="center"
-                    color="#64b6ac"
+                    color="#210440"
                     fontWeight="light"
                   >
                     Total Semua Tugas
@@ -99,11 +98,11 @@ export default function Dashboard() {
                   justifyContent="space-between"
                 >
                   <Grid item sx={{ flexGrow: 1 }}>
-                    <Box sx={{ backgroundColor: "white", borderRadius: 3 }}>
+                    <Box sx={{ backgroundColor: "#bff981", borderRadius: 3 }}>
                       <Typography
                         fontSize={40}
                         align="center"
-                        color="#64b6ac"
+                        color="#210440"
                         fontWeight="regular"
                       >
                         7
@@ -111,7 +110,7 @@ export default function Dashboard() {
                       <Typography
                         fontSize={10}
                         align="center"
-                        color="#64b6ac"
+                        color="#210440"
                         fontWeight="light"
                       >
                         Total Tugas Selesai
@@ -122,14 +121,14 @@ export default function Dashboard() {
                     <Box
                       sx={{
                         mt: 2,
-                        backgroundColor: "white",
+                        backgroundColor: "#ffabab",
                         borderRadius: 3,
                       }}
                     >
                       <Typography
                         fontSize={40}
                         align="center"
-                        color="#64b6ac"
+                        color="#210440"
                         fontWeight="regular"
                       >
                         14
@@ -137,7 +136,7 @@ export default function Dashboard() {
                       <Typography
                         fontSize={10}
                         align="center"
-                        color="#64b6ac"
+                        color="#210440"
                         fontWeight="light"
                       >
                         Total Tugas Belum Selesai
@@ -177,7 +176,8 @@ export default function Dashboard() {
                       fontWeight: "bold",
                       ml: 2,
                       align: "center",
-                      color: "#64b6ac",
+                      color: "#5b5f97",
+                      width: 200
                     }}
                   >
                     Buat Tugas
@@ -194,13 +194,13 @@ export default function Dashboard() {
               sx={{
                 mt: 1,
                 width: 350,
-                height: 180,
-                backgroundColor: "#fad4c0",
-                borderRadius: 4,
+                // height: 180,
+                // backgroundColor: "#f9d181",
+                // borderRadius: 4,
               }}
             >
-              <List sx={{ width: "100%", maxWidth: 360 }}>
-                <ListItem>
+              <List sx={{ width: "100%", maxWidth: 360, padding: 0 }}>
+                <ListItem sx={{ borderTopLeftRadius: 10, borderTopRightRadius: 10, bgcolor: '#ffabab', borderTop: '1px solid black', borderRight: '1px solid black', borderLeft: '1px solid black' }}>
                   <Box
                     component={Link}
                     to={"/taskdetail2"}
@@ -218,16 +218,11 @@ export default function Dashboard() {
                           Lihat Tugas Yang Belum Dikerjakan
                         </Typography>
                       }
-                      secondary={
-                        <Typography sx={{ fontSize: 15, color: "#64b6ac" }}>
-                          09 Juli 2023
-                        </Typography>
-                      }
                     />
                   </Box>
                 </ListItem>
                 <Divider />
-                <ListItem>
+                <ListItem sx={{ bgcolor: '#bff981', borderBottomRightRadius: 10, borderBottomLeftRadius: 10, borderBottom: '1px solid black', borderLeft: '1px solid black', borderRight: '1px solid black' }}>
                   <Box
                     component={Link}
                     to={"/taskdetail"}
@@ -245,15 +240,9 @@ export default function Dashboard() {
                           Lihat Tugas Yang Sudah Dikerjakan
                         </Typography>
                       }
-                      secondary={
-                        <Typography sx={{ fontSize: 15, color: "#64b6ac" }}>
-                          09 Juli 2023
-                        </Typography>
-                      }
                     />
                   </Box>
                 </ListItem>
-                <Divider />
               </List>
             </Box>
           </Grid>

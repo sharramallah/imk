@@ -12,7 +12,7 @@ export default function Report() {
       <Box
         sx={{
           width: "100vw",
-          bgcolor: "#fee9e1",
+          bgcolor: "#fffffb",
           height: "100vh",
           color: "#5b3e31",
         }}

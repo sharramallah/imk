@@ -23,7 +23,7 @@ export default function CreationDrawer() {
     <Box
       sx={{
         width: 250,
-        backgroundColor: "#fee9e1",
+        backgroundColor: "#5b5f97",
         // border: "2px solid black",
         height: "100vh",
       }}
@@ -38,6 +38,7 @@ export default function CreationDrawer() {
           fontSize: 30,
           fontWeight: "bold",
           mb: 2,
+          color: 'white'
         }}
       >
         c r e a t i o n
@@ -52,18 +53,18 @@ export default function CreationDrawer() {
               text === "Beranda"
                 ? "/dashboard"
                 : text === "Lihat Tugas"
-                ? "/taskdetail"
-                : "/report"
+                  ? "/taskdetail"
+                  : "/report"
             }
             sx={{
               textDecoration: "none",
-              color: "black",
+              color: "white",
             }}
           >
             <ListItem disablePadding>
               <ListItemButton sx={{ mt: 3 }}>
                 <List></List>
-                <ListItemIcon>
+                <ListItemIcon sx={{ color: 'white' }}>
                   {text === "Beranda" ? <InboxIcon /> : ""}
                   {text === "Lihat Tugas" ? <MailIcon /> : ""}
                   {text === "Laporan Tugas" ? <MailIcon /> : ""}

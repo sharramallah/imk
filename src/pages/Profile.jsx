@@ -8,11 +8,12 @@ import Avatar from "@mui/material/Avatar";
 import Grid from "@mui/material/Grid";
 import { IconButton } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import miaw from './miaw.png';
 
 export default function Profile() {
   const navigate = useNavigate();
   return (
-    <Box sx={{ bgcolor: "#fee9e1", height: "100vh" }}>
+    <Box sx={{ bgcolor: "#fffffb", height: "100vh" }}>
       <Box sx={{ p: 5 }}>
         <Typography variant="h6" gutterBottom>
           <IconButton onClick={() => navigate(-1)}>
@@ -27,12 +28,12 @@ export default function Profile() {
           <Avatar
             sx={{ width: 150, height: 150 }}
             alt="Remy Sharp"
-            src="/static/images/avatar/1.jpg"
+            src={miaw}
           />
         </Grid>
       </Grid>
 
-      <Box sx={{ m: 5, mt: 5, bgcolor: "#fee9e1" }}>
+      <Box sx={{ m: 5, mt: 5, bgcolor: "#fffffb" }}>
         <Box sx={{}}>
           <TextField
             fullWidth
@@ -75,7 +76,7 @@ export default function Profile() {
           />
         </Box>
         <Box mt={2}>
-          <Button variant="contained">Simpan</Button>
+          <Button sx={{ bgcolor: '#5b5f97' }} variant="contained">Simpan</Button>
         </Box>
       </Box>
     </Box>
